@@ -1,0 +1,27 @@
+{
+  "name": "hashguard",
+  "version": "0.1.0",
+  "description": "Zero-Risk Hashrate Auditing & Stratum V2 Migration Appliance",
+  "type": "module",
+  "scripts": {
+    "start": "node bridge.mjs",
+    "bridge": "node bridge.mjs",
+    "testbed": "node testbed/cli.mjs",
+    "testbed:start": "node testbed/cli.mjs start",
+    "testbed:status": "node testbed/cli.mjs status",
+    "abb": "node abb/index.mjs",
+    "abb:json": "node abb/index.mjs --json",
+    "abb:md": "node abb/index.mjs --markdown",
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node demo.mjs"
+  },
+  "keywords": [
+    "bitcoin",
+    "mining",
+    "stratum-v2",
+    "tether-mdk",
+    "telemetry"
+  ],
+  "author": "",
+  "license": "MIT"
+}

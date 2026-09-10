@@ -1,0 +1,12 @@
+{
+  "name": "mdk-wrk-sv2-proxy",
+  "version": "1.0.0",
+  "description": "Tether MDK Worker for Stratum V2 Translation Proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@tetherto/mdk-backend-core": "file:../../mdk/backend/core"
+  }
+}

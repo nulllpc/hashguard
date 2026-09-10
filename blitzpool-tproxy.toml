@@ -1,0 +1,28 @@
+downstream_address = "0.0.0.0"
+downstream_port = 34255
+
+max_supported_version = 2
+min_supported_version = 2
+downstream_extranonce2_size = 4
+verify_payout = false
+aggregate_channels = true
+
+supported_extensions = [
+    0x0002,
+]
+
+monitoring_address = "0.0.0.0:9092"
+monitoring_cache_refresh_secs = 5
+
+[downstream_difficulty_config]
+min_individual_miner_hashrate = 10000000000000.0
+shares_per_minute = 6.0
+enable_vardiff = true
+
+job_keepalive_interval_secs = 60
+
+[[upstreams]]
+address = "blitzpool.yourdevice.ch"
+port = 3333
+authority_pubkey = "9bCoFxTszKCuffyywH5uS5o6WcU4vsjTH2axxc7wE86y2HhvULU"
+user_identity = "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa.hashguard"
